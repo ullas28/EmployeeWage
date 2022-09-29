@@ -20,7 +20,7 @@ public class UseClassMethodVariable {
      */
     private static void wageComputation() {
         Random random = new Random();
-        while ( totalEmpHrs < MAX_HRS_IN_MONTHS && totalWorkingDays < numOfWorkingDays ) {
+        while ( totalEmpHrs <= MAX_HRS_IN_MONTHS && totalWorkingDays < numOfWorkingDays ) {
             int empCheck = (int) Math.floor(Math.random() * 10) % 3;
             switch (empCheck) {
                 case IS_FULL_TIME:
