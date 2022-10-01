@@ -2,7 +2,6 @@
 
 package com.bridgelabz.employeewage;
 
-import java.util.Random;
 
 public class UseClassMethodVariable {
 
@@ -19,8 +18,7 @@ public class UseClassMethodVariable {
      * static method for computing the wage for employee.
      */
     private static void wageComputation() {
-        Random random = new Random();
-        while ( totalEmpHrs <= MAX_HRS_IN_MONTHS && totalWorkingDays < numOfWorkingDays ) {
+        while ( totalEmpHrs < MAX_HRS_IN_MONTHS && totalWorkingDays < numOfWorkingDays ) {
             int empCheck = (int) Math.floor(Math.random() * 10) % 3;
             switch (empCheck) {
                 case IS_FULL_TIME:
