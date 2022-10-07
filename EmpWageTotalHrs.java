@@ -1,5 +1,7 @@
 package com.bridgelabz.employeewage;
+
 /*Calculate Wages till a condition of total working hours or days is reached for a month Assume 100 hours and 20 days*/
+
 public class EmpWageTotalHrs {
     static final int IS_FULL_TIME = 1, IS_PART_TIME = 2, EMP_RATE_PER_HOUR = 20, NUM_OF_WORKING_DAYS = 20 ;
     static final int MAX_HRS_IN_MONTH = 100 ;
