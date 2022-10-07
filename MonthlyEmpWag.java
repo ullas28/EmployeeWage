@@ -1,5 +1,7 @@
 package com.bridgelabz.employeewage;
+
 /*Calculating Wages for a Monthly Assume 20 Working Day per Month*/
+
 public class MonthlyEmpWag {
     static final int IS_FULL_TIME = 1, IS_PART_TIME = 2, EMP_RATE_PER_HOUR = 20, NUM_OF_WORKING_DAYS = 20 ;
     public static void main(String[] args) {
