@@ -2,7 +2,6 @@
 
 package com.bridgelabz.employeewage;
 
-
 public class UseClassMethodVariable {
 
     public static final int IS_FULL_TIME = 1;
