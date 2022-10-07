@@ -1,5 +1,5 @@
 package com.bridgelabz.employeewage;
-
+/*Check Employee is Present or Absent - Use ((RANDOM)) for Attendance Check*/
 public class EmpCheck {
     public static void main(String[] args) {
         int IS_PRESENT = 1;
