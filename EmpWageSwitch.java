@@ -1,5 +1,7 @@
 package com.bridgelabz.employeewage;
+
 /*Solving using Switch Case Statement*/
+
 public class EmpWageSwitch {
     static final int IS_FULL_TIME = 1, IS_PART_TIME = 2, EMP_RATE_PER_HOUR = 20;
     public static void main(String[] args) {
